@@ -19,11 +19,6 @@ const logConfigProd = {
     level: 'info',
     transports: [ 
         new winston.transports.Console({ }),
-        new winston.transports.File({
-            filename: './logs/errors.log',
-            level: 'error'
-
-        })
     ]
 };
 
