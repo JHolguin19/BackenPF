@@ -1,0 +1,40 @@
+{"level":"error","message":"jwt expired","name":"TokenExpiredError","url":"/api/users/"}
+{"level":"error","message":"next is not a function","name":"TypeError","url":"/api/users/"}
+{"level":"error","message":"this.service.getUsers is not a function","name":"TypeError","url":"/api/users/"}
+{"level":"error","message":"Error: CastError: Cast to embedded failed for value \"{ product: '66f19ccbe3170e72e134f258' }\" (type Object) at path \"products\" because of \"CastError\"","name":"Error","url":"/api/carts/products/66f19ccbe3170e72e134f258"}
+{"level":"error","message":"Error: CastError: Cast to embedded failed for value \"{ product: '66f19ccbe3170e72e134f258' }\" (type Object) at path \"products\" because of \"CastError\"","name":"Error","url":"/api/carts/products/66f19ccbe3170e72e134f258"}
+{"level":"error","message":"jwt expired","name":"TokenExpiredError","url":"/api/carts/products/66f19ccbe3170e72e134f258"}
+{"level":"error","message":"Error: CastError: Cast to embedded failed for value \"{ product: '66f19ccbe3170e72e134f258' }\" (type Object) at path \"products\" because of \"CastError\"","name":"Error","url":"/api/carts/products/66f19ccbe3170e72e134f258"}
+{"level":"error","message":"Error: CastError: Cast to embedded failed for value \"{ product: '66f19ccbe3170e72e134f258' }\" (type Object) at path \"products\" because of \"CastError\"","name":"Error","url":"/api/carts/products/66f19ccbe3170e72e134f258"}
+{"level":"error","message":"Error: Error: StrictPopulateError: Cannot populate path `products.product` because it is not in your schema. Set the `strictPopulate` option to false to override.","name":"Error","url":"/api/carts/products/66f19ccbe3170e72e134f258"}
+{"level":"error","message":"Error: CastError: Cast to embedded failed for value \"{ productCart: '66f19ccbe3170e72e134f258' }\" (type Object) at path \"products\" because of \"CastError\"","name":"Error","url":"/api/carts/products/66f19ccbe3170e72e134f258"}
+{"level":"error","message":"Error: CastError: Cast to embedded failed for value \"{ productCart: '66f19ccbe3170e72e134f258' }\" (type Object) at path \"products\" because of \"CastError\"","name":"Error","url":"/api/carts/products/66f19ccbe3170e72e134f258"}
+{"level":"error","message":"jwt expired","name":"TokenExpiredError","url":"/api/carts/products/66f19ccbe3170e72e134f258"}
+{"level":"error","message":"mongoose is not defined","name":"ReferenceError","url":"/api/carts/products/66f19ccbe3170e72e134f258"}
+{"level":"error","message":"mongoose is not defined","name":"ReferenceError","url":"/api/carts/products/66f19ccbe3170e72e134f258"}
+{"level":"error","message":"Error: CastError: Cast to embedded failed for value \"{ productCart: '66f19ccbe3170e72e134f258' }\" (type Object) at path \"products\" because of \"CastError\"","name":"Error","url":"/api/carts/products/66f19ccbe3170e72e134f258"}
+{"level":"error","message":"Error: CastError: Cast to embedded failed for value \"{ productCart: '66f19ccbe3170e72e134f258' }\" (type Object) at path \"products\" because of \"CastError\"","name":"Error","url":"/api/carts/products/66f19ccbe3170e72e134f258"}
+{"level":"error","message":"Error: CastError: Cast to embedded failed for value \"{ productCart: '66f19ccbe3170e72e134f258' }\" (type Object) at path \"products\" because of \"CastError\"","name":"Error","url":"/api/carts/products/66f19ccbe3170e72e134f258"}
+{"level":"error","message":"Error: CastError: Cast to embedded failed for value \"{ productCart: '66f19ccbe3170e72e134f258' }\" (type Object) at path \"products\" because of \"CastError\"","name":"Error","url":"/api/carts/products/66f19ccbe3170e72e134f258"}
+{"level":"error","message":"jwt expired","name":"TokenExpiredError","url":"/api/carts/products/66f19ccbe3170e72e134f258"}
+{"level":"error","message":"Cannot destructure property 'role' of 'req.user' as it is undefined.","name":"TypeError","url":"/api/users/inactivity"}
+{"level":"error","message":"Cannot destructure property 'role' of 'req.user' as it is undefined.","name":"TypeError","url":"/api/users/inactivity"}
+{"level":"error","message":"Cannot destructure property 'role' of 'req.user' as it is undefined.","name":"TypeError","url":"/api/users/inactivity"}
+{"level":"error","message":"Cannot destructure property 'role' of 'req.user' as it is undefined.","name":"TypeError","url":"/api/users/inactivity"}
+{"level":"error","message":"Cannot destructure property 'role' of 'req.user' as it is undefined.","name":"TypeError","url":"/api/users/inactivity"}
+{"level":"error","message":"Cannot destructure property 'role' of 'req.user' as it is undefined.","name":"TypeError","url":"/api/users/inactivity"}
+{"level":"error","message":"Cannot destructure property 'role' of 'req.user' as it is undefined.","name":"TypeError","url":"/api/users/inactivity"}
+{"level":"error","message":"Cannot destructure property 'role' of 'req.user' as it is undefined.","name":"TypeError","url":"/api/users/inactivity"}
+{"level":"error","message":"Cannot destructure property 'role' of 'req.user' as it is undefined.","name":"TypeError","url":"/api/users/inactivity"}
+{"level":"error","message":"Cannot destructure property 'role' of 'req.user' as it is undefined.","name":"TypeError","url":"/api/users/inactivity"}
+{"level":"error","message":"Cannot destructure property 'role' of 'req.user' as it is undefined.","name":"TypeError","url":"/api/users/inactivity"}
+{"level":"error","message":"Cannot destructure property 'role' of 'req.user' as it is undefined.","name":"TypeError","url":"/api/users/inactivity"}
+{"level":"error","message":"Cannot destructure property 'role' of 'req.user' as it is undefined.","name":"TypeError","url":"/api/users/inactivity"}
+{"level":"error","message":"Cannot destructure property 'role' of 'req.user' as it is undefined.","name":"TypeError","url":"/api/users/inactivity"}
+{"level":"error","message":"Cannot read properties of undefined (reading 'checkUserLastConnection')","name":"TypeError","url":"/api/users/inactivity"}
+{"level":"error","message":"Cannot read properties of undefined (reading 'checkUserLastConnection')","name":"TypeError","url":"/api/users/inactivity"}
+{"level":"error","message":"Cannot read properties of undefined (reading 'checkUserLastConnection')","name":"TypeError","url":"/api/users/inactivity"}
+{"level":"error","message":"Cannot destructure property 'role' of 'req.user' as it is undefined.","name":"TypeError","url":"/api/users/inactivity"}
+{"level":"error","message":"Cannot destructure property 'role' of 'req.user' as it is undefined.","name":"TypeError","url":"/api/users/inactivity"}
+{"level":"error","message":"jwt expired","name":"TokenExpiredError","url":"/api/products/66f3263fb8b2d86545f7bc7b"}
+{"level":"error","message":"errorDictionary is not defined","name":"ReferenceError","url":"/api/products/66f3263fb8b2d86545f7bc7b"}

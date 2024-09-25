@@ -1,0 +1,172 @@
+  paths:
+    /api/products:
+      post:
+        tags:
+          - Product
+        summary: Registro de producto
+        requestBody:
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/parameters/schemas/BodyProducts'
+          required: true
+        responses: 
+          200: 
+            description: Se registro el producto
+            content:
+              application/json:
+                schema:
+                  $ref: '#/components/schema/Products/Product'
+          500:
+            description: Error al conectar al servidor
+            content:
+              application/json:
+                schema:
+                  $ref: '#/components/schema/Products/InternalServerError'
+      get:
+        tags:
+        - Product
+        summary: Lista de productos
+        responses:
+          200:
+            description: Lista de productos
+            content:
+              application/json:
+                schema:
+                  $ref: '#/components/schema/Products/GetAllProducts'
+          500:
+            description: Error al conectar al servidor
+            content:
+              application/json:
+                schema:
+                  $ref: '#/components/schema/Products/InternalServerError'
+    /api/products/{id}:
+      get:
+        tags: 
+        - products             
+        summary: Productos por id
+        parameters:
+          - in: path
+            name: id
+            required: true
+            description: id referente a la noticia
+            schema:
+              type: string
+        responses:
+          200:
+            description: Producto encontrada
+            content: 
+              application/json:
+                schema:
+                  $ref: '#/components/schema/Products/Product'
+          404:
+            description: Error to found product
+            content:
+              application/json:
+                schema:
+                  $ref: '#/components/schema/Products/Product/ErrorGetById'
+      put:
+        tags: 
+        - products             
+        summary: actualizar productos
+        parameters:
+          - in: path
+            name: id
+            required: true
+            description: id referente a al producto
+            schema:
+              type: string
+        requestBody:
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schema/Products'
+        responses:
+          200:
+            description: Producto encontrada
+            content: 
+              application/json:
+                schema:
+                  $ref: '#/components/schema/Products/Product'
+          404:
+            description: Error to found product
+            content:
+              application/json:
+                schema:
+                  $ref: '#/components/schema/Products/Product/ErrorGetById'
+      delete:
+        tags: 
+        - products             
+        summary: Eliminar Producto
+        parameters:
+          - in: path
+            name: id
+            required: true
+            description: id referente a la noticia
+            schema:
+              type: string
+        responses:
+          200:
+            description: Producto encontrada
+            content: 
+              application/json:
+                schema:
+                  $ref: '#/components/schema/Products/Product'
+          404:
+            description: Error to found product
+            content:
+              application/json:
+                schema:
+                  $ref: '#/components/schema/Products/Product/ErrorGetById'
+    /api/users/register:
+      post:
+        tags: 
+        - Users
+        summary: Registro de usuario  
+        requestBody:  
+          content:
+            application/json:
+              schema: 
+                $ref: '#/components/parameters/schemas/User'
+          required: true
+        responses:  
+          200:
+            description: Register success
+            content: 
+              application/json:
+                schema: 
+                  $ref: '#/components/parameters/schemas/User'
+    /api/users/login:
+      post:
+        tags: 
+        - Users
+        summary: Login de usuario  
+        requestBody:  
+          content:
+            application/json:
+              schema: 
+                $ref: '#/components/parameters/schemas/login'
+          required: true
+        responses:  
+          200:
+            description: Login success
+            content: 
+              application/json:
+                schema: 
+                  $ref: '#/components/schema/Users/User'
+    /api/users/profile:
+      get:
+        tags:
+        - Users
+        summary: Datos del usuario autenticado
+        responses:
+          200:
+            description: Datos del usuario
+            content:
+              application/json:
+                schema:
+                  $ref: '#/components/schema/Users/profile'
+        security:
+          - BearerAuth: []
+ 
+        
