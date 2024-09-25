@@ -6,11 +6,6 @@ const logConfigDev = {
     level: 'info',
     transports: [ 
         new winston.transports.Console({ level: 'debug' }),
-        new winston.transports.File({
-            filename: './logs/errors.log',
-            level: 'error'
-
-        })
     ]
 };
 
