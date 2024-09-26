@@ -15,8 +15,8 @@ Ruta: /api <------ Prefijo para todas las rutas
   age: number
   password:number
 *Post: /users/login
-  email:
-  password:
+  email:String
+  password: password
     Usuarios Premium: 
     email:juan@coder.com
     password:12345
